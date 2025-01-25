@@ -75,13 +75,24 @@
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Video</title>
+    <style>
+        .video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        }
+    </style>
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
+            <a class="navbar-brand fw-bold" href="#page-top">Jingjie Ma's Homepage</a>
             <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,27 +104,37 @@
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#page-top">HOME</a>
                     </li>
+
                     <!--
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
-                    </li>
+                    </li> 
                     -->
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                    </li> -->
+
+                    <!-- 跳转到 priject.html -->
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="project.html">PROJECT</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Top Section 背景-->
+
     <section class="top-section" style="background-image: url('static/assets/img/back2.png'); height: 500px;">
         <div class="top-section-content">
             <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
+                <h2 class="display-4">Hello, I'm Jingjie Ma</h2>
+                <p class="lead text-white">Welcome to my homepage</p>
             </div>
         </div>
     </section>
+    
     <!-- Top Section -->
 
     <!-- Photo 头像-->
@@ -148,8 +169,8 @@
     </section>
      Publications  -->
 
-    <!-- Awards
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
+    <!--Awards -->
+    <!-- <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
         <div class="container px-5">
             <header>
                 <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
@@ -157,9 +178,9 @@
             <div class="main-body" id="awards-md"></div>
 
         </div>
-    </section>
-     Awards -->
-     
+    </section> -->
+
+
     <div class="video-container">
     <iframe width="800" height="450" 
             src="https://www.youtube.com/embed/your_video_id" 
